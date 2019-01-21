@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<title>Document</title>
+</head>
+<body>
+	<div id="body">
+		<div id="dataInput"> Набор данных:   
+			<input type="radio" name="check" id="radio1" onclick="loadPhones('/country.json', 'content')"> Только страны 
+			<input type="radio" name="check" id="radio2" onclick="loadPhones('/capital.json', 'content')"> Страны и столицы 
+			<input type="radio" name="check" id="radio3" onclick="loadPhones('/allData.json', 'content')"> Полная информация 
+		</div>
+		<div class="wrapper">
+			<form id="form1" action="">
+	    	<input style="display: none" type="text" placeholder="Фильтр по стране" autofocus="on" />
+	    	<input style="border-radius: 3px; border: 1px solid black;" id="filterInput" type="text" placeholder=" Поиск"/>
+		</form>
+		</div>
+		<content id="content" class="wrapper">
+		
+		</content>
+		<div id="buttonAdd"></div>
+		<content id="content2">
+		</content>
+	</div>
+	<script defer type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

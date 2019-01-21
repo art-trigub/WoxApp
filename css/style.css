@@ -1,0 +1,127 @@
+
+#table {
+	margin-top: 20px;
+	margin-left: 10px;
+	padding: 10px;
+	border: 1px solid green;
+	border-collapse: collapse;
+	font-size: 15px;
+}
+
+#table td {
+	height: 25px;
+}
+
+#table td, table th {
+	border: 1px solid black;
+	text-align: center;
+	height: 25px;
+}
+
+#table2{
+	margin-top: 20px;
+	margin-left: 10px;
+	padding: 10px;
+	border: 1px solid green;
+	border-collapse: collapse;
+	font-size: 15px;
+}
+
+#table2 td, table th {
+	border: 1px solid black;
+	text-align: center;
+	height: 25px;
+}
+
+th {
+	font-weight: bold;
+      cursor: pointer;
+}
+
+#tableChoose {
+	border: 1px solid green;
+	border-collapse: collapse;
+	font-size: 15px;
+	margin: 10px;
+}
+
+#tableChoose td {
+	border: 1px solid black;
+	text-align: center;
+	height: 25px;
+	width: 125px;
+}
+
+#inputAdd{
+	margin-top: 10px;
+	margin-left: 220px;
+}
+ 
+tbody tr:nth-child(odd) {
+    background: #eee;
+}
+
+.wrapper .hide{
+  background: #ff9;
+  display: none;
+}
+
+#filterInput {
+	margin-top: 10px;
+	margin-left: 230px;
+}
+
+#dataInput {
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+th{
+	height: 30px;
+	font-size: 16px;
+	background-color: lightgrey;
+}
+
+#th1{
+	width: 40px;
+}
+
+#th2{
+	width: 160px;
+}
+
+#th3{
+	width: 160px;
+}
+
+#th4{
+	width: 130px;
+}
+
+#th5{
+	width: 130px;
+}
+
+#btn1{
+	margin-left: 260px;
+}
+
+.btnClass {
+	margin-top: 25px;
+	margin-left: 15px;
+}
+
+#body{
+	margin-left: 300px;
+}
+
+#buttonAdd{
+	height: 35px;
+	margin-left: 150px;
+
+}
+
+#addData{
+	margin-top: 30px;
+	margin-left: 50px;
+}
